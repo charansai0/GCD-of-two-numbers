@@ -19,23 +19,14 @@ Program to find the gcd of a number using function.
 Developed by: v.charan sai
 RegisterNumber: 21003158
 ~~~
-
-
 def gcd_recursive(x,y):
-
     rem = x%y
-
     if (rem == 0):
-
-        return y 
-
+    return y 
     else:
-
-        return gcd_recursive(y,rem)
+    return gcd_recursive(y,rem)
 def gcd():
-
     n,m=int(input()),int(input())
-
     print("GCD of two numbers is:",gcd_recursive(n,m))
     
 
