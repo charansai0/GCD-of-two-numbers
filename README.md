@@ -16,7 +16,9 @@ To write a program to find the GCD of two numbers using function.
 ## Program:
 
 #Program to find the gcd of a number using function.
+
 #Developed by: v.charan sai
+
 #RegisterNumber: 21003158
 
 def gcd_recursive(x,y):
